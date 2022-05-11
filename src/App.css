@@ -43,5 +43,36 @@ body{
   max-height: 120%;
 }
 .header-overlay{
-  height: 100vh; 
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(157, 169, 1);
+  z-index: 1;
+  opacity: .2; 
+}
+
+.header-content{
+  z-index: 2;
+}
+
+.header-content h1{
+  font-size: 15vh;
+  margin-bottom: 0;
+}
+
+.header-content p{
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.btn{
+  background: rgb(4, 98, 0);
+  border-radius: 25px;
+  color: aliceblue;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
